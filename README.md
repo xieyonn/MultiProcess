@@ -1,6 +1,21 @@
 # PHP 多进程模型
 
 ## 安装
+使用composer
+
+1. 将仓库加到你的项目`composer.json`的`repositories`下
+```
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/xieyong1023/MultiProcess.git"
+        }
+    ]
+}
+```
+
+2. 安装
 ```
 composer require "xieyong1023/MultiProcess"
 ```
