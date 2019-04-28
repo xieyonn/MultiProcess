@@ -1,0 +1,17 @@
+{
+    "name": "xieyong1023/MultiProcess",
+    "description": "php multi process tool library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "XieYong",
+            "email": "qxieyongp@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {"MultiProcess\\": "src/"}
+    }
+}
